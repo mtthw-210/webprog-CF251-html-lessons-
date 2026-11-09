@@ -1,26 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Web Page</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/mystyle.css">
-<title>Page Title</title>
 </head>
-<body>
+<body class="w3-light-grey">
 
-<h1>Personal Profile Web page </h1>
-<br>
+<div id="profile-wrapper" class="w3-content w3-margin-top" style="max-width:800px;">
 
-<br>About Me
-<br> ( Julius Matthew Sangalang / 23 / jmsangalang@student.apc.edu.ph)
-<br>Education / Achievements
-<br>BS in Computer Science 
-<br>IT Experience: 
-<br>Hobbies & Interests:
-<br>Goals In Life / Dream: 
-<br>Picture Gallery
-<p>
-<img src="https://moewalls.com/wp-content/uploads/2026/08/final-fantasy-vii-main-menu-theme-buster-sword-thumb-728x410.jpg" width="728" height="410"> 
-</p>
+    <div class="w3-card-4 w3-white w3-margin-bottom">
+        
+        <div class="w3-container w3-blue w3-center w3-padding-16">
+            <h1>Personal Profile Web Page</h1>
+        </div>
+
+        <div class="w3-container w3-padding-16">
+            <h2 class="w3-border-bottom w3-border-blue w3-text-blue">About Me</h2>
+            <p class="w3-large">
+                <b>Name:</b> <span class="w3-text-grey">Julius Matthew Sangalang</span><br>
+                <b>Age:</b> <span class="w3-text-grey">23</span><br>
+                <b>Email:</b> <a href="mailto:jmsangalang@student.apc.edu.ph" class="w3-text-blue w3-hover-text-black">jmsangalang@student.apc.edu.ph</a>
+            </p>
+        </div>
+
+        <div class="w3-container w3-padding-16">
+            <h2 class="w3-border-bottom w3-border-blue w3-text-blue">Education / Achievements</h2>
+            <table class="w3-table-all w3-hoverable">
+                <thead>
+                    <tr class="w3-light-blue">
+                        <th>Degree / Program</th>
+                        <th>Institution</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>BS in Computer Science</td>
+                    <td>Asia Pacific College (APC)</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="w3-container w3-padding-16">
+            <h2 class="w3-border-bottom w3-border-blue w3-text-blue">IT Experience</h2>
+            <ul class="w3-ul w3-border w3-hoverable">
+            </ul>
+        </div>
+
+        <div class="w3-container w3-padding-16">
+            <h2 class="w3-border-bottom w3-border-blue w3-text-blue">Hobbies & Interests</h2>
+            <ol>
+                <li>Playing RPGs (Final Fantasy series)</li>
+                <li>Coding and software development</li>
+                <li>Exploring new technology trends</li>
+            </ol>
+        </div>
+
+        <div class="w3-container w3-padding-16">
+            <h2 class="w3-border-bottom w3-border-blue w3-text-blue">Goals In Life / Dream</h2>
+            <div class="w3-panel w3-leftbar w3-border-blue w3-pale-blue w3-padding-16">
+            </div>
+        </div>
+
+        <div class="w3-container w3-padding-16 w3-center">
+            <h2 class="w3-border-bottom w3-border-blue w3-text-blue w3-left-align">Picture Gallery</h2>
+            <div class="w3-padding-16">
+                <img src="https://moewalls.com/wp-content/uploads/2026/08/final-fantasy-vii-main-menu-theme-buster-sword-thumb-728x410.jpg" alt="FFVII Buster Sword" class="w3-image w3-round w3-card-4" style="max-width:100%;height:auto;"> 
+            </div>
+        </div>
+
+    </div>
+</div>
 
 </body>
 </html>
--
