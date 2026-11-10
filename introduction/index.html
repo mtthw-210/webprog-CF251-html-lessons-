@@ -1,25 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
     <link rel="stylesheet" href="css/mystyle.css">
-<title>Page Title</title>
 </head>
 <body>
 
-<h1>Personal Profile Web page </h1>
-<br>
+<div id="main-profile-container">
 
-<br>About Me
-<br> ( Julius Matthew Sangalang / 23 / jmsangalang@student.apc.edu.ph)
-<br>Education / Achievements
-<br>BS in Computer Science 
-<br>IT Experience: 
-<br>Hobbies & Interests:
-<br>Goals In Life / Dream: 
-<br>Picture Gallery
-<p>
-<img src="https://github.com/mtthw-210/webprog-CF251-html-lessons-/blob/feature/css/images/final-fantasy-vii-main-menu-theme-buster-sword-thumb-728x410.jpg?raw=true" width="1080" height="768"> 
-</p>
+    <h1>Personal Profile Web Page</h1>
+
+    <p><a href="../index.html">← Back to Main Page</a></p>
+
+    <div class="profile-section">
+        <h2>About Me</h2>
+        <p>
+            <strong>Name:</strong> Julius Matthew M. Sangalang <br>
+            <strong>Age:</strong> 23 <br>
+            <strong>Email:</strong> <a href="mailto:jmsangalang@student.apc.edu.ph" class="contact-link">jmsangalang@student.apc.edu.ph</a>
+        </p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Education / Achievements</h2>
+        <table class="info-table" style="width:100%; border-collapse: collapse;" border="1">
+            <tr>
+                <th style="text-align: left; padding: 8px;">Degree / Program</th>
+                <th style="text-align: left; padding: 8px;">Status</th>
+            </tr>
+            <tr>
+                <td style="padding: 8px;">BS in Computer Science</td>
+                <td style="padding: 8px;">In Progress</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="profile-section">
+        <h2>IT Experience</h2>
+        <ul class="experience-list">
+            <li>Database Management and Design (MySQL)</li>
+            <li>Software Development (Python)</li>
+            <li>Network Topology Modeling (Cisco Packet Tracer)</li>
+        </ul>
+    </div>
+
+    <div class="profile-section">
+        <h2>Hobbies & Interests</h2>
+        <ol class="hobbies-list">
+            <li>Building PC rigs and assembling hardware</li>
+            <li>Playing video games (RPGs, tactical shooters)</li>
+            <li>Reading manga</li>
+        </ol>
+    </div>
+
+    <div class="profile-section">
+        <h2>Goals In Life / Dream</h2>
+        <p class="goal-text">To continuously expand my IT expertise, build innovative software, and develop my technical career.</p>
+    </div>
+
+    <div class="profile-section">
+        <h2>Picture Gallery</h2>
+        <p>
+            <img src="https://github.com/mtthw-210/webprog-CF251-html-lessons-/blob/feature/css/images/final-fantasy-vii-main-menu-theme-buster-sword-thumb-728x410.jpg?raw=true" alt="Final Fantasy VII Buster Sword" width="1080" height="768" class="gallery-img">
+        </p>
+    </div>
+
+</div>
 
 </body>
 </html>
